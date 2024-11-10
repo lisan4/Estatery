@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;   
+    box-sizing: border-box;
+}
+
+button {
+    background-color: var(--fiol);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", serif;
+  }
+
+:root {
+    --fiol: #7065F0;
+    --white: #ffff;
+    --black-text: #000929;
+    --grey: #E5E5E5;
+}

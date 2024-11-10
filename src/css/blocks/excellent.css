@@ -1,0 +1,66 @@
+.header-villa {
+    position: relative;
+}
+
+.excellent-wrapper {
+    width: 261px;
+    height: 156px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url('/img/Mask\ Group.png');
+}
+
+.excellent-content {
+    width: 212px;
+    height: 100px;
+    margin: 24px;
+    margin-bottom: 32px;
+    margin-top: 20px;
+}
+
+.excellent-title {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: bold;
+    color: var(--white);
+    position: relative;
+
+}
+
+.excellent-item {
+    margin-bottom: 10px;
+}
+
+.excellent-stars {
+    display: flex;
+    width: 116px;
+    height: 20px;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.excellent-desc {
+    color: var(--white);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+
+}
+
+.excellent-wrapper--star {
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.excellent-star {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+

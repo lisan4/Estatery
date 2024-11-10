@@ -1,0 +1,107 @@
+.people-wrapper {
+    width: 270px;
+    height: 285px;
+    background-color: var(--white);
+    position: absolute;
+    top: 90px;
+}
+
+.people-list--wrapper {
+    display: flex;
+    width: 221px;
+    height: 64px;
+    margin: 24px;
+    margin-right: 25px;
+    gap: 16px;
+}
+
+.people-list {
+    width: 141px;
+    height: 64px;
+}
+
+.people-item--name {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--black-text);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.people-item--job {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
+
+.people-moved {
+    opacity: 0.5;
+}
+
+.people-item--moved {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    
+    display: flex;
+    gap: 8px;
+}
+
+.loved {
+    width: 221px;
+    height: 57px;
+    margin: 0 auto;
+}
+
+.loved-list {
+    display: flex;
+    justify-content: space-between;
+    height: 57px;
+}
+
+
+.loved-item--text {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 173px;
+    
+}
+
+.card-data--list {
+    margin: 0 auto;
+    margin-top: 24px;
+    width: 221px;
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 2px solid var(--grey);
+
+    padding-top: 24px;
+
+}
+
+.card-data--item {
+    width: 76px;
+    height: 44px;
+}
+
+.data-bold {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+
+}
+
+.data-info {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+
+
