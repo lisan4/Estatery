@@ -1,0 +1,179 @@
+.easy {
+    height: 788px;
+    background-color: #100A55;
+    position: relative;
+    overflow: hidden;
+}
+
+.easy-list {
+    width: 1120px;
+    height: 212px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.easy-item {
+    width: 444px;
+    height: 112px;
+
+}
+
+.easy-item2 {
+    width: 406px;
+    height: 104px;
+    color: var(--white);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.easy-desc1 {
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.purple {
+    color: var(--fiol);
+}
+
+.swiper-slide {
+    width: 536px;
+    height: 194px;
+    background-color: #403B77;
+    border-radius: 8px;
+}
+
+.swiper-slide--second {
+    background-color: #ffff;
+}
+
+.swiper-slide--third {
+    background-color: #7065F0;
+}
+
+
+.swiper-wrap {
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 64px;
+    margin-bottom: 128px;
+}
+
+.swiper {
+    width: 536px !important;
+    margin: 0 !important;
+    overflow: visible;
+}
+
+.swiper-wrap::after{
+    content: "";
+    position: absolute;
+    bottom: 254px;
+    left: 0;
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    background-color: #312F4B;
+}
+
+.slider-content {
+    width: 472px;
+    height: 130px;
+    margin: 32px;
+}
+
+.slider-list {
+    display: flex;
+    gap: 24px;
+}
+
+.slider-title {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    color: var(--white);
+    margin-bottom: 16px;
+}
+
+.slider-title--second {
+    color: black;
+}
+
+.slider-desc {
+    width: 384px;
+    height: 78px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--white);
+    opacity: 0.7;
+}
+
+.slider-desc--second {
+    color: black;
+    opacity: 0.7;
+}
+
+.slide-info--list {
+    width: 928px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide-info--item {
+    width: 240px;
+    height: 90px;
+    text-align: center;
+    position: relative;
+}
+
+.slide-info--item::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: -52px;
+    top: 13px;
+    height: 64px;
+    width: 1.5px;
+    background-color: var(--white);
+}
+
+.slide-info--disabled::before {
+    content: "";
+    display: none;
+}
+
+.slide-info--title {
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.slide-info--decs {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

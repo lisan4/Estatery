@@ -4,4 +4,7 @@
 @import '/src/css/blocks/excellent.css';
 @import '/src/css/blocks/cardPeople.css';
 @import '/src/css/blocks/newHome.css';
-@import '/src/css/blocks/location.css'
+@import '/src/css/blocks/location.css';
+@import '/src/css/blocks/slider.css';
+@import '/src/css/blocks/submitSection.css';
+@import '/src/css/blocks/footer.css';

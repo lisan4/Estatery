@@ -1,0 +1,87 @@
+.submit {
+    background: linear-gradient(to right, 
+    rgba(247, 247, 253, 0.5) 0%, 
+    rgba(247, 247, 253, 1) 50%, 
+    rgba(247, 247, 253, 0.5) 100%);
+    height: 442px;
+}
+
+.submit-list {
+    width: 544px;
+    height: 206px;
+    margin: 0 auto;
+    padding-top: 64px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.submit-spam {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    color: var(--fiol);
+    margin-bottom: 8px;
+}
+
+.submit-landlord {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.submit-discover {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    opacity: 0.5;
+
+}
+
+.input-sub--list {
+    width: 543px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.input-sub {
+    background: #ffff;
+    border-radius: 8px;
+    border: none;
+    width: 543px;
+    height: 80px;
+    position: relative;
+}
+
+.input-sub::placeholder {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    opacity: 0.5;
+}
+
+.button-sub {
+    position: absolute;
+    width: 134px;
+    height: 48px;
+    background-color: var(--fiol);
+    right: 19px;
+    top: 16px;
+}
+
+.sub-desc {
+    width: 370px;
+    height: 20px;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: 24px;
+}
+
+.purple-sub {
+    color: var(--fiol);
+}
+
