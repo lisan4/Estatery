@@ -17,6 +17,17 @@ button {
     cursor: pointer;
 }
 
+.button-properties {
+    font-size: 14px;
+    line-height: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 159px;
+    height: 40px;
+    background: #100A55;
+    border-radius: 8px;
+}
+
 body {
     font-family: "Plus Jakarta Sans", serif;
   }
