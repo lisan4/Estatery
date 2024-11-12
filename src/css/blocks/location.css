@@ -214,6 +214,66 @@
     height: 56px;
 }
 
+@media (max-width: 600px) {
+    .location-wrapper {
+        width: 375px;
+        margin: 0 auto;
+        padding-top: 48px;
+    }
+
+    .location-list__title {
+        width: 327px;
+        height: 148px;
+        margin-bottom: 48px;
+    }
+
+    .location-title {
+        margin-bottom: 16px;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .location-menu--wrapper {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .location-menu {
+        order: 2;
+        width: 327px;
+        margin: 0 auto;
+        padding: 8px;
+    }
+
+    .location-search {
+        width: 327px;
+        margin: 0 auto;
+    }
+
+    .menu-list {
+        order: 1;
+        width: 317px;
+        margin: 0;
+    }
+
+    .myinput {
+        width: 327px;
+        height: 64px;
+    }
+
+    .menu-item {
+        width: 98px;
+    }
+
+    .item-wrapper {
+        margin-top: 10px;
+        margin-bottom: 8px;
+        margin-left: 10px;
+        margin-right: 16px;
+    }
+    
+}
+
 
 
 

@@ -75,3 +75,68 @@
     width: 290px;
     height: 218px;
 }
+
+@media (max-width: 600px) {
+    .new {
+        margin-top: 96px;
+        margin-bottom: 0;
+    }
+
+    .new-wrapper {
+        display: block;
+        width: 375px;
+        height: 1370px;
+    }
+
+    .new-list {
+        padding-top: 32px;
+        padding-left: 32px;
+        padding-right: 32px;
+        width: auto;
+        height: auto;
+        margin: 0;
+
+    }
+
+    .new-card {
+        margin: 0 auto;
+        width: 327px;
+        height: 580px;
+        background-size: 327px 580px;
+        margin-bottom: 65px;
+    }
+
+    .new-info {
+        display: block;
+        width: 327px;
+        margin: 0 auto;
+        height: 670px;
+    }
+
+    .new-list--second {
+        display: block;
+    }
+
+    .new-item--sec {
+        width: 327px;
+        position: relative;
+        height: 156px;
+        margin-bottom: 24px;
+    }
+
+    .new-item--sec svg {
+        position: absolute;
+    }
+
+    .new-title {
+        padding-left: 80px;
+        margin: 0;
+        margin-bottom: 16px;
+
+    }
+
+    .new-desc {
+        padding-left: 80px;
+        margin: 0;
+    }
+}

@@ -76,3 +76,49 @@
     width: 106px;
     height: 48px;
 }
+
+@media (max-width: 600px) {
+    .background-nav {
+        height: 72px;
+        padding: 0;
+        
+    }
+
+    .nav {
+        width: 375px;
+        height: 72px;
+        display: block;
+        padding: 16px 24px;
+        position: relative;
+    }
+
+    .nav-list {
+        display: none;
+    }
+    .nav-wrapper--button {
+        display: none;
+    }
+
+    .nav-wrapper--logo {
+
+        width: auto;
+    }
+
+    .page-header__toggle {
+        position: relative;
+
+        cursor: pointer;
+    }
+
+    .page-header__toggle::before {
+        content: "";
+        position: absolute;
+        top: -6px;
+        right: 19px;
+        width: 20px;
+        height: 2px;
+        background-color: #221f1f;
+        box-shadow: 0 5px 0 0 #221f1f;
+    }
+    
+}

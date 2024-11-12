@@ -10,6 +10,6 @@ var swiper = new Swiper(".mySwiper", {
     },
     mousewheel: true,
     keyboard: true,
-
+    breakpoints: { 600: { enabled: true, }, 1: { enabled: false, } }
    
 });

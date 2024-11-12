@@ -66,3 +66,63 @@
     font-weight: 500;
     color: var(--black-text);
 }
+
+@media (max-width: 600px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .header-desc {
+        margin: 0;
+    } 
+
+    .header-section {
+        display: block;
+        width: auto;
+    }
+    .header-villa {
+        display: none;
+    }
+
+    .decs-list {
+        width: 327px;
+        height: 260px;
+        margin: 0 auto;
+        margin-top: 48px;
+        margin-bottom: 232px;
+    }
+
+    .decs-item {
+        width: 327px;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+        text-align: center;
+    } 
+
+    .buy-item {
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+    }
+
+    .icon-wrapper {
+        width: 327px;
+        height: 140px;
+        margin: 0 auto;
+    }
+
+   .icon-text {
+    font-size: 20px;
+    line-height: 28px;
+   }
+
+   .icon-desc {
+    font-size: 14px;
+    line-height: 18px;
+   }
+
+   .icon-list {
+    width: 154px;
+   }
+}
