@@ -75,9 +75,9 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    new MenuCard("url('/img/1bg.card.png')", "$2,095", "Palm Harbor", "2699 Green Valley, Highland Lake, FL", "Highland Lake, FL", "3", "2", "5x7", ".first").render();
-    new MenuCard("url('/img/bg2-card.png')", "$2,700", "Beverly Springfield", "2821 Lake Sevilla, Palm Harbor, TX", "Highland Lake, FL", "4", "2", "6x7,5", ".second").render();
-    new MenuCard("url('/img/bg3-card.png')", "$4,550", "Faulkner Ave", "909 Woodland St, Michigan, IN", "Highland Lake, FL", "4", "3", "8x10", ".third").render();
+    new MenuCard("url('./img/1bg.card.png')", "$2,095", "Palm Harbor", "2699 Green Valley, Highland Lake, FL", "Highland Lake, FL", "3", "2", "5x7", ".first").render();
+    new MenuCard("url('./img/bg2-card.png')", "$2,700", "Beverly Springfield", "2821 Lake Sevilla, Palm Harbor, TX", "Highland Lake, FL", "4", "2", "6x7,5", ".second").render();
+    new MenuCard("url('./img/bg3-card.png')", "$4,550", "Faulkner Ave", "909 Woodland St, Michigan, IN", "Highland Lake, FL", "4", "3", "8x10", ".third").render();
 
 
 });
