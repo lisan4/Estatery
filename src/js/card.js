@@ -47,18 +47,18 @@ window.addEventListener('DOMContentLoaded', () => {
                 <div class="conditions">
                     <ul class="conditions-list">
                         <li class="conditions-item">
-                            <img src="/img/Bed.svg">
+                            <img src="./img/Bed.svg">
                             <p class="conditions-text desktop-only">${this.beds} Beds</p>
                             <p class="conditions-text">${this.beds}</p>
                         </li>
                         <li class="conditions-item">
-                            <img src="/img/Bath.svg">
+                            <img src="./img/Bath.svg">
 
                             <p class="conditions-text desktop-only">${this.bathrooms} Bathrooms</p>
                             <p class="conditions-text">${this.bathrooms}</p>
                         </li>
                         <li class="conditions-item">
-                            <img src="/img/square.svg">
+                            <img src="./img/square.svg">
                             
                             <p class="conditions-text">${this.s} m²</p>
                         </li>
