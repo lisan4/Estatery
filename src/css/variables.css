@@ -38,3 +38,17 @@ body {
     --black-text: #000929;
     --grey: #E5E5E5;
 }
+
+.home-desc--mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .home-desc--mobile {
+        display: block;
+    }
+}

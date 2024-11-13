@@ -85,3 +85,51 @@
     color: var(--fiol);
 }
 
+@media (max-width: 600px) {
+    .submit {
+        height: 461px;
+    }
+    .submit-list {
+        width: 327px;
+        height: auto    ;
+        padding-top: 48px;
+        margin-bottom: 48px;
+    }
+
+    .submit-landlord {
+        font-size: 32px;
+        line-height: 40px;
+
+    }
+
+    .input-sub--list {
+        width: 327px;
+        height: 120px;
+
+    }
+
+    .input-sub {
+        width: 327px;
+        height: 56px;
+
+    }
+
+    .button-sub {
+        width: 327px;
+        height: 48px;
+        right: 0px;
+        top: 72px;
+    }
+
+    .input-sub {
+        margin-bottom: 88px;
+    }
+
+    .sub-desc {
+        width: 327px;
+        text-align: center;
+
+        height: auto;
+    }
+}
+

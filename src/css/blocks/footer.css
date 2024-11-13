@@ -1,21 +1,21 @@
 .footer {
     width: 1065px;
-
+    position: relative;
     margin: 0 auto;
     display: flex;
-    gap: 138px;
+    gap: 107px;
     margin-top: 80px;
     margin-bottom: 80px;
 }
 
-footer {
+.foot {
     position: relative;
 }
 
-.footer::before {
+.foot::before {
     content: "";
     position: absolute;
-    bottom: 64px;
+    bottom: 66px;
     left: 0;
     display: inline-block;
     height: 2px;
@@ -81,5 +81,137 @@ footer {
 .footer-icon--item svg {
     fill: #B3B6BF;
 
+}
+
+.footer-wrapper--elem {
+    display: flex;
+    flex-wrap: wrap;
+    width: 776px;
+    height: 432px;
+    column-gap: 88px;
+    row-gap: 47px;
+
+}
+
+.footer-elements {
+    width: 200px;
+    height: 192px;
+
+}
+
+#elem1 {
+    order: 1;
+}
+#elem2 {
+    order: 4;
+}
+#elem3 {
+    order: 2;
+}   
+#elem4 {
+    order: 5;
+}
+#elem5 {
+    order: 3;
+}
+#elem6 {
+    order: 6;
+}
+
+
+
+@media (max-width: 600px) {
+    .footer {
+        margin-top: 48px;
+        display: block;
+        width: 327px;
+    }
+
+    .logo-footer {
+        width: 327px;
+        margin: 0 auto;
+        margin-bottom: 48px;
+    }
+
+    .footer-wrapper {
+        width: 327px;
+        margin: 0 auto;
+        height: auto;
+    }
+    
+
+    .footer-list {
+        display: block;
+        width: 155px;
+        height: 524px;
+    }
+
+    .footer-wrapper--elem {
+        display: flex;
+        flex-wrap: wrap;
+        width: 327px;
+        height: auto;
+        column-gap: 17px;
+        row-gap: 32px;
+    
+    }
+
+    .footer-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .footer-desc {
+        font-size: 14px;
+        line-height: 32px;
+    }
+
+    .footer-elements {
+        width: 155px;
+        height: auto;
+    }
+
+    #elem1 {
+        order: 1;
+    }
+    #elem2 {
+        order: 3;
+
+    }
+    #elem3 {
+        order: 5;
+
+    }   
+    #elem4 {
+        order: 2;
+
+    }
+    #elem5 {
+        order: 4;
+    }
+    #elem6 {
+        order: 6;
+    }
+
+    .foot::before {
+        bottom: 112px;
+    }
+
+    .footer-bottom {
+        width: 327px;
+        height: 74px;
+        flex-direction: column;
+    }
+
+    .footer-descip {
+        width: 327px;
+        height: 26px;
+        text-align: center;
+    }
+
+    .footer-icon--list {
+        width: 216px;
+        margin: 0 auto;
+    }
 }
 

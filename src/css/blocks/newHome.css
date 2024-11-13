@@ -139,4 +139,8 @@
         padding-left: 80px;
         margin: 0;
     }
+
+    .img-icon {
+        position: absolute;
+    }
 }
