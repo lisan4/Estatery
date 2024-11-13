@@ -15,7 +15,7 @@
 .new-card {
     width: 416px;
     height: 500px;
-    background-image: url('/img/bg-new.png');
+    background-image: url('img/bg-new.png');
 }
 
 .new-info {
