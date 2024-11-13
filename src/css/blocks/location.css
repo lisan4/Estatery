@@ -103,7 +103,7 @@
 }
 
 .myinput::placeholder {
-    background-image: url('/img/search.svg');
+    background-image: url('./img/search.svg');
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@
 }
 
 .home::before {
-    content: url("img/card-svg.svg");
+    content: url("./img/card-svg.svg");
     position: absolute;
     top: 182px;
     left: -7px;

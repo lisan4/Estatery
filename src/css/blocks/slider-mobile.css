@@ -24,7 +24,7 @@
     content: "";
     position: absolute;
     display: inline-block;
-    background-image: url('img/like.svg');
+    background-image: url('./img/like.svg');
     background-repeat: no-repeat;
     width: 48px;
     height: 48px;
