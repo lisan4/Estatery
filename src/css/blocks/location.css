@@ -104,7 +104,7 @@
 }
 
 .myinput::placeholder {
-    background-image: url('./img/search.svg');
+    background-image: url('../../../img/search.svg');
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
