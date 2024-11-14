@@ -77,11 +77,8 @@
     width: 221px;
     display: flex;
     justify-content: space-between;
-
     border-top: 2px solid var(--grey);
-
     padding-top: 24px;
-
 }
 
 .card-data--item {
@@ -94,7 +91,6 @@
     line-height: 20px;
     font-weight: bold;
     margin-bottom: 8px;
-
 }
 
 .data-info {

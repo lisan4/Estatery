@@ -49,13 +49,13 @@ window.addEventListener('DOMContentLoaded', () => {
                         <li class="conditions-item">
                             <img src="./img/Bed.svg">
                             <p class="conditions-text desktop-only">${this.beds} Beds</p>
-                            <p class="conditions-text">${this.beds}</p>
+                            <p class="conditions-text mobile-only">${this.beds}</p>
                         </li>
                         <li class="conditions-item">
                             <img src="./img/Bath.svg">
 
                             <p class="conditions-text desktop-only">${this.bathrooms} Bathrooms</p>
-                            <p class="conditions-text">${this.bathrooms}</p>
+                            <p class="conditions-text mobile-only">${this.bathrooms}</p>
                         </li>
                         <li class="conditions-item">
                             <img src="./img/square.svg">

@@ -1,5 +1,6 @@
 .location-background {
     background: linear-gradient(to top, #F0EFFB, #ffff);
+    overflow: hidden;
 }
 
 .location-wrapper {
@@ -185,8 +186,6 @@
     padding-top: 16px;
 
 }
-
-
 
 .conditions-list {
     display: flex;
